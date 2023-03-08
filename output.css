@@ -1256,6 +1256,10 @@ input:checked + .toggle-bg {
   flex-wrap: wrap;
 }
 
+.place-content-center {
+  place-content: center;
+}
+
 .items-start {
   align-items: flex-start;
 }
@@ -1417,6 +1421,34 @@ input:checked + .toggle-bg {
 
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
+}
+
+.bg-auto {
+  background-size: auto;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-\[length\:200px_100px\] {
+  background-size: 200px 100px;
+}
+
+.bg-\[length\:20px_20px\] {
+  background-size: 20px 20px;
+}
+
+.bg-\[length\:10px_10px\] {
+  background-size: 10px 10px;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-2 {
